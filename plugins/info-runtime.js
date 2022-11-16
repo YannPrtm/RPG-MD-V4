@@ -37,7 +37,7 @@ const time = moment.tz('Asia/Jakarta').format('HH')
                         title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
                         body: `Subscribe YT My Bestie`,                                       previewType: 0,
                         thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        sourceUrl: 'https://youtu.be/'
             }
         }
     })

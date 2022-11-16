@@ -10,7 +10,7 @@ let handler = async (m, { conn, text, usedPrefix }) => {
     const onet = Math.floor( Kurang % (1000 * 60 * 60) / (1000 * 60))
     const detek = Math.floor( Kurang % (1000 * 60) / 1000)
     let sewa = `
-         〔 llı OWNER ${namebot} ıll 〕
+         ?? llı OWNER ${namebot} ıll ??
     
 Nama: ${nameowner}
 Umur: ${umurowner}
@@ -29,10 +29,10 @@ ${botdate}
                 mediaUrl: '',
                         mediaType: 2,
                         description: 'anu',
-                        title: `💌 Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
-                        body: `Subscribe YT My Bestie`,                                       previewType: 0,
+                        title: `?? Ultah Owner : ${ohari} Hari ${ojam} Jam ${onet} Menit ${detek} Detik`,
+                        body: `Hii everyone`,                                       previewType: 0,
                         thumbnail: await (await fetch(`https://i.ibb.co/jfZVKmC/babi2.jpg`)).buffer(),
-                        sourceUrl: 'https://youtu.be/pwLZpdfO8AU'
+                        sourceUrl: 'https://youtu.be/'
             }
         }
     })
